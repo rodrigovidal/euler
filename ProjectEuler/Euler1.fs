@@ -1,4 +1,4 @@
-﻿module ProjectEuler
+﻿module Euler1
 
 let sumAllMultiplesOf3Or5Fun list = 
     list |> List.filter (fun x -> x % 3 = 0 || x % 5 = 0)
